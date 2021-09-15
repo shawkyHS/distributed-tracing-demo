@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opentelemetry-collector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opentelemetry-collector-contrib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/order-transmission-servcie" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/payment-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/platform-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/time-estimation-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor-availability-service" vcs="Git" />
+  </component>
+</project>

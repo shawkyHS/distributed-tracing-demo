@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Estimations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Minutes</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @estimations.each do |estimation| %>
+      <tr>
+        <td><%= estimation.minutes %></td>
+        <td><%= link_to 'Show', estimation %></td>
+        <td><%= link_to 'Edit', edit_estimation_path(estimation) %></td>
+        <td><%= link_to 'Destroy', estimation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Estimation', new_estimation_path %>
